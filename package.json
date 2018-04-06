@@ -1,0 +1,17 @@
+{
+  "name": "ph-government-offices",
+  "version": "0.0.1",
+  "description": "list of philippine government offices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "x-ray": "^2.3.2"
+  }
+}
