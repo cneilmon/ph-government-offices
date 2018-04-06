@@ -1,9 +1,12 @@
 # ph-government-offices
 Philippine Government Offices API
 
-## Live Demo
+## Endpoints
 
-* [http://twitter-search.robertsoriano.com/](http://twitter-search.robertsoriano.com/)
+* [http://139.59.105.62:5001/api/offices](http://139.59.105.62:5001/api/offices) - Get all offices
+* [http://139.59.105.62:5001/api/offices/2](http://139.59.105.62:5001/api/offices/2) - Get office by id
+* [http://139.59.105.62:5001/api/offices?limit=5](http://139.59.105.62:5001/api/offices?limit=5) - Limit offices returned by 5
+* [http://139.59.105.62:5001/api/offices?slug=office-of-the-president](http://139.59.105.62:5001/api/offices?slug=office-of-the-president) - Get office by slug
 
 ## Build Setup
 
