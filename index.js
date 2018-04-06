@@ -63,10 +63,9 @@ app.get('/api/offices', (req, res) => {
 		if (req.query.slug) {
 			const i = data.findIndex((d) => d.name.replace(/\s+/g, '-').toLowerCase() === req.query.slug);
 			if (i >= 0) {
-				data = data[i]
+				data = data[i];
 			} else {
-				res.json({message: 'No data found with slug ' + req.query.slug});
-				return;
+				return res.json({message: 'No data found with slug ' + req.query.slug});
 			}
 		}
 		res.json(data);
@@ -86,9 +85,9 @@ app.get('/api/offices/:id', (req, res) => {
 		} else {
 			return res.json({
 				message: 'No data found with id ' + req.params.id
-			})
+			});
 		}
 	})
 });
 
-app.listen(3000)
+app.listen(5001);
